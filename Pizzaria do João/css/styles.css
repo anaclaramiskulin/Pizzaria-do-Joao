@@ -1,0 +1,235 @@
+/* Gerais */
+
+body{
+    font-family:'Times New Roman', Times, serif; 
+}
+
+.row{
+    margin:0;
+}
+.container{
+    padding: 7px 0;
+}
+
+p.li{
+    color:#444;
+    font-size: 14;
+}
+
+.hr--small{
+    margin: 20px auto;
+    color:black;
+}
+
+hr, .hr--small{
+    border-width: 2px 0 0 0;
+    width: 70px;
+}
+
+/*Barra de navegação*/
+
+header, .navbar{
+    background-color: orange;
+}
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 65px;
+}
+
+.nav-brand{
+    padding:0;
+    color: #fff;
+}
+.navbar-brand:hover{
+    color: red;
+}
+
+#navbar-links a{
+    color:#fff;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 1ren .8ren;
+}
+
+/* Slider*/
+.container-fluid{
+    padding:0;
+    padding-bottom: 3vw;
+}
+#mainSlider .carousel-inner #mainSlider .carousel-item{
+    height:90vh;
+}
+#mainSlider .carousel-caption{
+    top:30%;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size:60px;
+    margin-bottom:30px;
+    color:black;
+    font-family: lobster;
+}
+
+#mainSlider .carousel-caption p{
+    font-size:26px;
+    font-weight: 300;
+    margin-bottom: 100px ;
+    color: white;
+}
+
+.main-btn{
+    background-color: orange;
+    color: #fff;
+    text-transform: uppercase;
+    width: 200px;
+    height: 600px;
+    padding:10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color:#fff;
+    background-color: transparent;
+    border-color: orange;
+}
+
+/* Cardápio */
+
+.hr--small{
+    padding-top: 0%;
+    color:red;
+}
+
+#cardapio{
+    padding-bottom: 8vw ;
+}
+.col-md-6 {
+    padding-bottom: 1vh;
+    padding: 1vh;
+    margin-bottom: 0%;
+}
+
+.row{
+    padding-left: 46vh;
+}
+.container1{
+    padding-top: 35vh;
+    background-color: red;
+    width: 90vw;
+    padding: 1vh;
+}
+.container2{
+    padding-top: 50vh;
+    background-color: white;
+    width: 90vw;
+    padding: 1vh;
+}
+.container3{
+    padding-top: 50vh;
+    background-color: green;
+    width: 90vw;
+    padding: 1vh; 
+}
+
+.container11{
+    padding-top: 50vh;
+    background-color: red;
+    width: 90vw;
+    padding: 1vh;
+}
+
+.linhas{
+    padding-top: 5vw;
+    padding-bottom: 1vw;
+    padding-left: 5vw;
+}
+
+.titulo{
+    margin: 0 0 65px 0;
+    font-size: 45px;
+    text-align:center;
+    padding-top: 2vh;
+} 
+
+.titulo::after{
+    content: "";
+    border: red;
+    width:15%;
+    position: absolute;
+    top: 60px;
+    left: 42.5%; 
+}
+
+/* Formulário */
+
+#titulo{
+    margin: 0 0 65px 0;
+    font-size: 45px;
+    text-align:center;
+    padding-top: 2vh;
+}
+
+.formulario{
+  padding: 0%; 
+}
+
+.retirada-btn{
+    background-color: orange;
+    color: #fff;
+    text-transform: uppercase;
+    width: 190px;
+    height: 50px;
+    padding:10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+#botao{
+    padding-left: 12vh;
+}
+
+
+/* cadastrar */
+
+
+.cadastrar{
+    color:orange;
+}
+
+
+
+/*Página adiministrador*/
+
+#titulo-adm{
+    margin: 0 0 65px 0;
+    font-size: 40px;
+    text-align:center;
+    padding-top: 3vw;
+    padding-bottom:1vh;
+}
+#botao-adm{
+    padding-left: 100vh;
+}
+.editar-btn{
+    background-color: orange;
+    color: #fff;
+    text-transform: uppercase;
+    width: 190px;
+    height: 50px;
+    padding:10px 20px;
+    border-radius: 30px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+.footer{
+    padding-top: 20vw;
+}

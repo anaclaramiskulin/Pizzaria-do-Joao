@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <!-- Bosstrap CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+
+    <title>Inicio</title>
+</head>
+<header>
+    <div class="container" id="nav">
+        <nav class=" navbar navbar-expand-lg">
+            
+            <a class="navbar-brand">
+                <!-- imagem do logo e o titulo do site-->
+                <img src="./imagens/logo.jpg"  id="logo" styles="font-faily= Courgette;" alt="">
+                Pizzaria do João
+            </a> 
+               
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navbar-links" 
+                        aria-controls="navbar-links"aria-expended="false" aria label="toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link"  href="#inicio" id="inicio">Inicio</a>
+                    <a class="nav-item nav-link"  href="./cadastro.html" id="cadastro">Cadastro</a>
+                     <a class="nav-item nav-link" href="./login.html" id="login">Login</a>
+                    <a class="nav-item nav-link"  href="#cardapio">Cardápio</a>
+                    <a class="nav-item nav-link" href="#pedido">Pedido</a>
+                </div>
+            </div>
+        </nav>
+    </div> 
+    
+</header>
+<main>
+    <div id="inicio">
+            <div class="container-fluid">
+        
+        <div id="mainSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="mainSlider" data-slide-to="0" clas="active"></li>
+                <li data-target="mainSlider" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+
+                <div class="carousel-item active">
+                    <img src="imagens/pizza1.jpg" class="d-block w-100" alt="Fome de pizza? ">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Fome de pizza?</h2>
+                        <p>Mais de 10 pizzarias na região!</p>
+                        <a href="#cardapio" class="main-btn">Ver cardápio</a>
+                    </div>
+                </div>
+
+                <div class="carousel-item ">
+                    <img src="imagens/pizza2.jpg" class="d-block w-100" alt="Diversos sabores para você!">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h2>Escolha já</h2>
+                        <p>Retire rapidamente no balcão!</p>
+                        <a href="a" class="main-btn">Ver cardápio</a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="mainSlider"class="carousel-control-prev" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Anterior</span>
+            </a>
+            <a href="mainSlider"class="carousel-control-next" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+</main>
+
+<body>
+
+
+<!--Parte Cardápio-->
+
+    <diV id="cardapio">
+
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+
+        <div class="linhas">
+  <div class="container1">
+</div>
+    <div class="container2">
+    </div>
+        <div class="container3">   
+</div>
+</div>
+
+<div class="col-12">
+    <h3 class="titulo">Cardápio</h3>
+    <hr class="hr--small">     
+</div>
+        <div class="row row-cols-2">
+          
+      
+            <div class="col">
+                <h1>Sabores Salgados</h1>
+
+                <p>1. Quatro Queijos.......... R$ 45,00</p>
+                <p>Mussarela, parmesão, gorgonzola, cheedar</p>
+
+                <p>2. Frango com Catupiry.......... R$ 47, 00</p>
+                <p2>Mussarela, frango, catupiry, tomate</p2>
+
+                <p>3. Calabresa.......... R$ 33,00</p>
+                <p2>Mussarela, calabresa, cebola, tomate</p2>
+
+                <p>4. Lombinho.......... R$ 49,00</p>
+                <p2>Mussarela, lombo, catupiry, tomate</p2>
+
+                <p>5. Filé com Cheddar.......... R$ 55, 00</p>
+                <p2>Mussarela, cheddar, catupiry, filé</p2>
+
+                <p>6. Portuguesa.......... R$ 50,00</p>
+                <p2>Mussarela, presunto, ovo, cebola, tomate, milho</p2>
+
+                <p>7. Marguerita.......... R$ 48,00</p>
+                <p2>Mussarela, parmesão, tomate, manjericão</p2>
+            </div>
+        
+            <div class="col">
+                <h1>Pizzas Doce</h1>    
+
+                <p>Chocolate preto.......... R$ 35,00</p>
+                <p>Chocolate branco.......... R$ 35,00</p>
+                <p>Chocolate e morango.......... R$ 37,00</p>
+                <p>Chocolate e m&ms.......... R$ 38,00</p>
+                <p>Romeu e Julieta.......... R$ 34,00</p>
+                <p>Sorvete.......... R$ 35,00</p>
+                <p>Chocolate branco.......... R$ 35,00</p>
+                <p>Chocolate e morango.......... R$ 37,00</p>
+                <p>Chocolate e m&ms.......... R$ 38,00</p>
+                <p>Romeu e Julieta.......... R$ 34,00</p>
+            </div>
+            
+            <div class="col">
+                <h1>Bordas Recheadas</h1>  
+
+                <p>Cheddar.......... R$ 6,00</p>
+                <p>Catupiry.......... R$ 5,00</p>
+                <p>Chocolate.......... R$ 7,00</p>
+            </div>
+
+            <div class="col">
+                <h1>Massas</h1>
+
+                <p>1. Massa comum.......... R$ </p>
+                <p2>Farinha de trigo, leite, ovo, óleo</p2>
+
+                <p>2. Massa integral.......... R$ 6, 00</p>
+                <p2>Farinha de trigo integral, água, manteiga</p2>
+
+                <p>3. Massa temperada.......... R$ 9,00</p>
+                <p2>Farinha de trigo, leite, ovo, óleo </p2>
+
+            </div>
+        </div>
+
+        <div class="linhas">
+            <div class="container1">
+        </div>
+                <div class="container2">
+                </div>
+                    <div class="container3">         
+            </div>
+        
+    </div>
+</div>
+
+<!--Parte Pedido-->
+
+<div id="pedido">
+    <!--
+    <div class="container-fluid flex border-dark  p-3 my-3">
+    <img src="https://img.freepik.com/fotos-premium/fatia-de-deliciosa-pizza-com-ingredientes-no-plano-de-fundo-texturizado-de-madeira_23-2147926094.jpg"  alt="Imagem responsiva">
+    </div>
+    -->
+
+    <h1 class="col-12" id="titulo">Faça seu pedido aqui</h1>
+    <hr class="hr--small">
+
+    <form class="formulario">
+
+        <div class="form-group">
+
+            <div class="container">
+            <div class="row row-cols-2">
+                <fieldset class="form-group">
+                    <div class="col">
+                      <legend class="col-form-label col-sm-2 pt-0">Sabor</legend>
+                      <small id="aviso" class="form-text text-muted">Escolha até 3 sabores</small>
+                      <div class="col-sm-10">
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                          <label class="form-check-label" for="gridRadios1">Quatro queijos</label>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                          <label class="form-check-label" for="gridRadios2">Frango com catupiry</label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">Calabresa</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">Lombinho</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">Filé com cheddar</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">Portuguesa</label>
+                          </div>
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                            <label class="form-check-label" for="gridRadios2">Marguerita</label>
+                          </div>
+                      
+                      </div>
+                    </div>
+                  </fieldset>
+        
+                <div class="row">
+                <div class="col">  
+                    <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                          <label class="mr-sm-2" for="inlineFormCustomSelect">Massa</label>
+                          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Escolha...</option>
+                            <option value="1">Comum</option>
+                            <option value="2">Integral</option>
+                            <option value="3">Temperada</option>
+                          </select>
+                        </div>
+                    </div>
+                </div>
+              
+               
+                   <div class="col">
+                      <div class="form-row align-items-center">
+                        <div class="col-auto my-1">
+                          <label class="mr-sm-2" for="inlineFormCustomSelect">Borda</label>
+                          <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                            <option selected>Escolha...</option>
+                            <option value="1">Cheddar</option>
+                            <option value="2">Catupiry</option>
+                            <option value="3">Chocolate</option>
+                          </select>
+                        </div>
+                    </div>
+               
+
+                   <div class="col">
+                      <label class="form-label">Observação</label><br>
+                      <input class= "form-conrtrol" type="text" id="observacao" name="observacao" placeholder="Ex: sem cebola"><br>               
+        <br>
+                 
+                     <small id="aviso" class="form-text text-muted">Retirada no balcão</small>
+                     <div  id="botao">
+                     <input type="submit" href="confirmar" value="Confirmar pedido" class="retirada-btn">
+                    </div>
+                </div>
+
+      </form>
+     <!--<div class="row">
+        <div class="col-md-6">
+      <div class="text-left">
+        <img src="https://media.istockphoto.com/id/666718440/photo/delicious-classic-italian-pizza-carbonara-with-ham-sausages-tomatoes-mushrooms-and-cheese.jpg?s=612x612&w=0&k=20&c=G-NMe4-5360VqSVuZ1Xl5hrD-WVfIhO4nORcM0k0MoI=" class="rounded" alt="...">
+      </div></div></div>
+      -->
+
+
+    </div> 
+</div> 
+
+</body>
+
+<footer class="footer"> 
+    
+        <div class="col-md-12">
+    <p>Pizzaria do João, 2022 </p>
+    
+    <div class="col - md-6"></div>
+    <spam>Entre em contato por: pizzariadojoao@gmail.com</spam>
+        </div>
+    </div>
+    </div>
+</footer>
